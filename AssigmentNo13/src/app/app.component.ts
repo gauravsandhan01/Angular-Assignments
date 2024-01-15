@@ -1,19 +1,14 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { ButtonsModule } from 'ngx-bootstrap/buttons';
-import { AlertModule } from 'ngx-bootstrap/alert';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, ButtonsModule,AlertModule,BsDropdownModule],
+  imports: [CommonModule, RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'bootstarp';
+  title = 'Assignment_13';
 }
